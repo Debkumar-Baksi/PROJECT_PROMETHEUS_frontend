@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PROJECT PROMETHEUS — Open Source AI for Everyone</title>
+<link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist+Mono:wght@300;400;500&family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <span class="fire">
+      <svg class="flame-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C12 2 8 6 8 10C8 10 6 8 6 6C6 6 3 9 3 14C3 17.87 7.13 21 12 21C16.87 21 21 17.87 21 13C21 7 15 4 15 4C15 4 14 7 12 8C12 8 13 5 12 2ZM12 17C10.34 17 9 15.66 9 14C9 12 11 10.5 12 10C13 10.5 15 12 15 14C15 15.66 13.66 17 12 17Z"/>
+      </svg>
+    </span>
+    Project Prometheus
+  </a>
+  <ul class="nav-links">
+    <li><a href="#docs">Docs</a></li>
+    <li><a href="#ecosystem">Ecosystem</a></li>
+    <li><a href="#community">Community</a></li>
+    <li><a href="#" class="badge">v0.0.1</a></li>
+    <li><a href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS" class="nav-cta">GitHub ↗</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="hero-eyebrow">Open Source AI Infrastructure</div>
+  <h1 class="hero-title">Bring the fire<br>of AI to <em>everyone.</em></h1>
+  <p class="hero-subtitle">
+    Project Prometheus is an open-source initiative making LLM training, AI research,
+    and model development accessible to anyone with a computer — regardless of resources.
+  </p>
+  <div class="hero-actions">
+    <a href="#docs" class="btn-primary">
+      Get Started
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    </a>
+    <a href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS" class="btn-secondary">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      View on GitHub
+    </a>
+  </div>
+  <div class="hero-stat-bar">
+    <div class="stat-item">
+      <span class="stat-number">1</span>
+      <span class="stat-label">GitHub Stars</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">1</span>
+      <span class="stat-label">Contributors</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">1</span>
+      <span class="stat-label">Countries</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat-item">
+      <span class="stat-number">MIT</span>
+      <span class="stat-label">License</span>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker-wrap">
+  <div class="ticker-track">
+    <span class="ticker-item">LLM Training <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Model Fine-Tuning <span class="ticker-dot"></span></span>
+    <span class="ticker-item">RLHF Pipeline <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Distributed Training <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Quantization <span class="ticker-dot"></span></span>
+    <span class="ticker-item">LoRA Adapters <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Inference Engine <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Tokenization <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Evaluation Suite <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Dataset Tooling <span class="ticker-dot"></span></span>
+    <!-- duplicate for seamless loop -->
+    <span class="ticker-item">LLM Training <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Model Fine-Tuning <span class="ticker-dot"></span></span>
+    <span class="ticker-item">RLHF Pipeline <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Distributed Training <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Quantization <span class="ticker-dot"></span></span>
+    <span class="ticker-item">LoRA Adapters <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Inference Engine <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Tokenization <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Evaluation Suite <span class="ticker-dot"></span></span>
+    <span class="ticker-item">Dataset Tooling <span class="ticker-dot"></span></span>
+  </div>
+</div>
+
+<!-- MANIFESTO -->
+<div class="manifesto reveal" id="about">
+  <div class="manifesto-inner">
+    <div class="section-label" style="color:#555; border-color:#333;">Philosophy</div>
+    <p class="manifesto-quote">
+      In the myth, Prometheus stole fire from the gods and gave it
+      to humanity. We believe AI is today's fire — <em>and it belongs to everyone.</em>
+    </p>
+    <p style="color:#666; font-size:16px; font-weight:300; max-width:620px; line-height:1.8;">
+      The concentration of AI capability in a handful of organizations is not inevitable.
+      It's a consequence of tooling, not talent. Project Prometheus builds the infrastructure
+      to make this universally accessible.
+    </p>
+
+    <div class="manifesto-pillars">
+      <div class="pillar">
+        <span class="pillar-num">01 — Accessibility</span>
+        <div class="pillar-title">Train on any hardware</div>
+        <p class="pillar-body">From a single consumer GPU to a university cluster. Prometheus scales to your available compute, not the other way around.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">02 — Transparency</span>
+        <div class="pillar-title">Fully open source</div>
+        <p class="pillar-body">Every line of code, every training recipe, every dataset card — published and peer-reviewed. No black boxes, no lock-in.</p>
+      </div>
+      <div class="pillar">
+        <span class="pillar-num">03 — Community</span>
+        <div class="pillar-title">Built together</div>
+        <p class="pillar-body">Research is collaborative. Our governance model ensures every contributor has a voice in the direction of the project.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- FEATURES -->
+<section id="features" class="reveal">
+  <div class="section-label">Capabilities</div>
+  <h2 class="section-title">Everything you need<br>to <em>build and ship</em> models.</h2>
+  <p class="section-body">
+    A complete toolkit for the full model development lifecycle.
+    Research to production, from one unified framework.
+  </p>
+
+  <div class="features-grid">
+    <div class="feature-card">
+      <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+        <polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/>
+      </svg>
+      <div class="feature-title">Open Training Code</div>
+      <p class="feature-body">Training implementations, experiments, and reproducible research for language models.</p>
+      <span class="feature-tag">Core</span>
+    </div>
+    <div class="feature-card">
+      <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/>
+      </svg>
+      <div class="feature-title">Open Research</div>
+      <p class="feature-body">Technical reports, benchmarks, training logs, and lessons learned from building AI systems.</p>
+      <span class="feature-tag">Research</span>
+    </div>
+    <div class="feature-card">
+      <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M3 3h18v18H3zM3 9h18M3 15h18M9 3v18M15 3v18"/>
+      </svg>
+      <div class="feature-title">Open Datasets</div>
+      <p class="feature-body">Tools and pipelines for collecting, cleaning, and preparing training data.</p>
+      <span class="feature-tag">Data</span>
+    </div>
+    <div class="feature-card">
+      <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+      </svg>
+      <div class="feature-title">Open Models</div>
+      <p class="feature-body">Freely available models that anyone can inspect, fine-tune, and improve.</p>
+      <span class="feature-tag">Models</span>
+    </div>
+    <div class="feature-card">
+      <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/>
+      </svg>
+      <div class="feature-title">Open Infrastructure</div>
+      <p class="feature-body">Utilities for training, evaluation, inference, and deployment on accessible hardware.</p>
+      <span class="feature-tag">Infra</span>
+    </div>
+    <div class="feature-card">
+      <svg class="feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M18 20V10M12 20V4M6 20v-6"/>
+      </svg>
+      <div class="feature-title">Open Community</div>
+      <p class="feature-body">A place for developers, researchers, students, and Engineers to collaborate on AI.</p>
+      <span class="feature-tag">Community</span>
+    </div>
+  </div>
+</section>
+
+<!-- DOCS HUB -->
+<!--
+  <section class="docs-section reveal" id="docs">
+    <div class="section-label">Documentation</div>
+    <h2 class="section-title">Everything documented.<br><em>Nothing hidden.</em></h2>
+
+    <div class="docs-grid">
+      <!-- Sidebar ->
+      <div class="docs-sidebar">
+        <div class="sidebar-section-title">Getting Started</div>
+        <a class="sidebar-link active" onclick="showDoc('intro')">Introduction</a>
+        <a class="sidebar-link" onclick="showDoc('install')">Installation</a>
+        <a class="sidebar-link" onclick="showDoc('quickstart')">Quick Start</a>
+
+        <div class="sidebar-section-title" style="margin-top:8px;">Core Concepts</div>
+        <a class="sidebar-link" onclick="showDoc('architecture')">Architecture</a>
+        <a class="sidebar-link" onclick="showDoc('config')">Configuration</a>
+        <a class="sidebar-link" onclick="showDoc('datasets')">Datasets</a>
+
+        <div class="sidebar-section-title" style="margin-top:8px;">Training</div>
+        <a class="sidebar-link" onclick="showDoc('pretraining')">Pre-Training</a>
+        <a class="sidebar-link" onclick="showDoc('finetuning')">Fine-Tuning</a>
+        <a class="sidebar-link" onclick="showDoc('rlhf')">RLHF & Alignment</a>
+
+        <div class="sidebar-section-title" style="margin-top:8px;">Deployment</div>
+        <a class="sidebar-link" onclick="showDoc('inference')">Inference</a>
+        <a class="sidebar-link" onclick="showDoc('quantization')">Quantization</a>
+
+        <div class="sidebar-section-title" style="margin-top:8px;">Reference</div>
+        <a class="sidebar-link" onclick="showDoc('api')">API Reference</a>
+        <a class="sidebar-link" onclick="showDoc('cli')">CLI Reference</a>
+      </div>
+
+      <!-- Content ->
+      <div class="docs-content">
+
+        <!-- INTRO ->
+        <div class="doc-page active" id="doc-intro">
+          <div class="doc-breadcrumb">Getting Started <span>›</span> Introduction</div>
+          <h1 class="doc-title">Introduction to Prometheus</h1>
+          <p class="doc-intro">
+            Project Prometheus is a modular, open-source framework for training, fine-tuning,
+            and deploying large language models. Designed for researchers and practitioners
+            who need full control without sacrificing usability.
+          </p>
+
+          <h2 class="doc-h2">What is Prometheus?</h2>
+          <p class="doc-p">
+            Prometheus provides a unified API over the entire model development lifecycle.
+            Whether you're pre-training a 7B parameter model from scratch or applying
+            LoRA adapters to an existing checkpoint, the same configuration system and
+            training loop applies.
+          </p>
+          <p class="doc-p">
+            The framework is backend-agnostic — it runs on PyTorch, supports single-GPU
+            setups, and scales to multi-node clusters without code changes.
+          </p>
+
+          <div class="doc-callout">
+            <strong>Note</strong>
+            <p>Prometheus requires Python 3.10+ and PyTorch 2.1+. CUDA 11.8 or ROCm 5.6 is recommended for GPU training.</p>
+          </div>
+
+          <h2 class="doc-h2">Key Principles</h2>
+          <table class="doc-table">
+            <thead>
+              <tr><th>Principle</th><th>Description</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Modularity</td><td>Every component — tokenizer, model, optimizer, scheduler — is swappable via config.</td></tr>
+              <tr><td>Reproducibility</td><td>All experiments are fully deterministic and config-captured for exact reproduction.</td></tr>
+              <tr><td>Efficiency</td><td>Memory and compute optimizations are on by default, not opt-in.</td></tr>
+              <tr><td>Transparency</td><td>No magic. Every abstraction has a readable, documented implementation.</td></tr>
+            </tbody>
+          </table>
+
+          <div class="doc-nav-footer">
+            <span></span>
+            <button class="doc-nav-btn" onclick="showDoc('install')">
+              Installation →
+            </button>
+          </div>
+        </div>
+
+        <!-- INSTALL ->
+        <div class="doc-page" id="doc-install">
+          <div class="doc-breadcrumb">Getting Started <span>›</span> Installation</div>
+          <h1 class="doc-title">Installation</h1>
+          <p class="doc-intro">
+            Prometheus can be installed via pip or from source. We recommend
+            using a virtual environment.
+          </p>
+
+          <h2 class="doc-h2">Via pip</h2>
+          <p class="doc-p">Install the stable release:</p>
+          <div class="doc-code">pip install prometheus-llm</div>
+
+          <p class="doc-p">With optional CUDA support:</p>
+          <div class="doc-code">pip install prometheus-llm[cuda]</div>
+
+          <h2 class="doc-h2">From Source</h2>
+          <div class="doc-code">git clone https://github.com/prometheus-ai/prometheus
+  cd prometheus
+  pip install -e ".[dev]"</div>
+
+          <div class="doc-callout">
+            <strong>Tip</strong>
+            <p>Use <span class="doc-inline-code">pip install -e ".[dev,docs]"</span> to also install documentation dependencies if you plan to contribute to the docs.</p>
+          </div>
+
+          <h2 class="doc-h2">Verify Installation</h2>
+          <div class="doc-code">python -c "import prometheus; print(prometheus.__version__)"
+  # → 0.4.2</div>
+
+          <h2 class="doc-h2">Requirements</h2>
+          <table class="doc-table">
+            <thead><tr><th>Package</th><th>Version</th><th>Notes</th></tr></thead>
+            <tbody>
+              <tr><td>python</td><td>≥ 3.10</td><td>3.11 recommended</td></tr>
+              <tr><td>torch</td><td>≥ 2.1.0</td><td>CUDA build for GPU</td></tr>
+              <tr><td>transformers</td><td>≥ 4.38</td><td>Auto-installed</td></tr>
+              <tr><td>accelerate</td><td>≥ 0.27</td><td>Auto-installed</td></tr>
+              <tr><td>peft</td><td>≥ 0.9</td><td>For LoRA fine-tuning</td></tr>
+            </tbody>
+          </table>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('intro')">← Introduction</button>
+            <button class="doc-nav-btn" onclick="showDoc('quickstart')">Quick Start →</button>
+          </div>
+        </div>
+
+        <!-- QUICKSTART ->
+        <div class="doc-page" id="doc-quickstart">
+          <div class="doc-breadcrumb">Getting Started <span>›</span> Quick Start</div>
+          <h1 class="doc-title">Quick Start</h1>
+          <p class="doc-intro">
+            Get a model fine-tuned in under five minutes. This guide uses a small dataset
+            and an open base model to demonstrate the full workflow.
+          </p>
+
+          <h2 class="doc-h2">1. Define a Config</h2>
+          <p class="doc-p">All Prometheus runs are driven by YAML configuration files.</p>
+          <div class="doc-code">&#35; config.yaml
+  model:
+    base: "mistralai/Mistral-7B-v0.1"
+    architecture: transformer
+
+  training:
+    method: lora
+    lora_r: 16
+    lora_alpha: 32
+    epochs: 3
+    learning_rate: 2e-4
+    batch_size: 4
+    gradient_accumulation: 4
+
+  data:
+    train: "data/train.jsonl"
+    val: "data/val.jsonl"
+    format: alpaca
+
+  output:
+    dir: "./runs/my-first-run"
+    save_steps: 200</div>
+
+          <h2 class="doc-h2">2. Launch Training</h2>
+          <div class="doc-code">prometheus train --config config.yaml</div>
+
+          <h2 class="doc-h2">3. Evaluate</h2>
+          <div class="doc-code">prometheus eval \
+    --checkpoint ./runs/my-first-run/final \
+    --benchmarks mmlu,hellaswag</div>
+
+          <h2 class="doc-h2">4. Run Inference</h2>
+          <div class="doc-code">prometheus serve \
+    --checkpoint ./runs/my-first-run/final \
+    --port 8080</div>
+
+          <div class="doc-callout">
+            <strong>What's next?</strong>
+            <p>Read the Architecture guide to understand how Prometheus components fit together, or jump into the Pre-Training guide for from-scratch model training.</p>
+          </div>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('install')">← Installation</button>
+            <button class="doc-nav-btn" onclick="showDoc('architecture')">Architecture →</button>
+          </div>
+        </div>
+
+        <!-- ARCHITECTURE ->
+        <div class="doc-page" id="doc-architecture">
+          <div class="doc-breadcrumb">Core Concepts <span>›</span> Architecture</div>
+          <h1 class="doc-title">Architecture</h1>
+          <p class="doc-intro">
+            Prometheus is built around a layered, composable design. Each layer
+            is independently testable and swappable.
+          </p>
+
+          <h2 class="doc-h2">Core Layers</h2>
+          <p class="doc-p">The framework is organized into five core layers that compose together:</p>
+
+          <div class="doc-h3">Data Layer</div>
+          <p class="doc-p">Streaming dataset loading, deduplication, packing, and mixing. Supports Hugging Face datasets, local JSONL, and custom data sources via the <span class="doc-inline-code">DataSource</span> protocol.</p>
+
+          <div class="doc-h3">Model Layer</div>
+          <p class="doc-p">Architecture definitions, weight initialization, and checkpoint management. Compatible with any Hugging Face <span class="doc-inline-code">AutoModel</span> class, plus custom architectures via the <span class="doc-inline-code">PrometheusModel</span> base class.</p>
+
+          <div class="doc-h3">Training Layer</div>
+          <p class="doc-p">The core training loop with pluggable trainers: <span class="doc-inline-code">CausalLMTrainer</span>, <span class="doc-inline-code">LoRATrainer</span>, <span class="doc-inline-code">RLHFTrainer</span>, and <span class="doc-inline-code">DPOTrainer</span>.</p>
+
+          <div class="doc-h3">Optimization Layer</div>
+          <p class="doc-p">Gradient checkpointing, mixed precision, Flash Attention 2, and FSDP/DeepSpeed integration. Automatically configured based on available hardware.</p>
+
+          <div class="doc-h3">Evaluation Layer</div>
+          <p class="doc-p">Standardized benchmark harness with support for adding custom tasks. All evaluation is run in isolation from training for clean measurement.</p>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('quickstart')">← Quick Start</button>
+            <button class="doc-nav-btn" onclick="showDoc('config')">Configuration →</button>
+          </div>
+        </div>
+
+        <!-- CONFIG ->
+        <div class="doc-page" id="doc-config">
+          <div class="doc-breadcrumb">Core Concepts <span>›</span> Configuration</div>
+          <h1 class="doc-title">Configuration</h1>
+          <p class="doc-intro">All Prometheus behavior is controlled through YAML configuration. Configs are validated at startup and version-controlled alongside your experiments.</p>
+
+          <h2 class="doc-h2">Config Schema</h2>
+          <p class="doc-p">Every config file follows a top-level schema with these keys:</p>
+          <div class="doc-code">model:          &#35; Model architecture and checkpoint
+  training:       &#35; Training method, hyperparameters
+  data:           &#35; Dataset paths and preprocessing
+  optimization:   &#35; Hardware and memory settings
+  logging:        &#35; Experiment tracking backends
+  output:         &#35; Save paths and checkpointing</div>
+
+          <h2 class="doc-h2">Environment Variable Interpolation</h2>
+          <div class="doc-code">data:
+    train: "${DATA_DIR}/train.jsonl"  &#35; Uses $DATA_DIR env var</div>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('architecture')">← Architecture</button>
+            <button class="doc-nav-btn" onclick="showDoc('datasets')">Datasets →</button>
+          </div>
+        </div>
+
+        <!-- DATASETS ->
+        <div class="doc-page" id="doc-datasets">
+          <div class="doc-breadcrumb">Core Concepts <span>›</span> Datasets</div>
+          <h1 class="doc-title">Datasets</h1>
+          <p class="doc-intro">Prometheus supports streaming from local files, Hugging Face Hub, and custom data sources without loading everything into memory.</p>
+
+          <h2 class="doc-h2">Supported Formats</h2>
+          <table class="doc-table">
+            <thead><tr><th>Format</th><th>Key</th><th>Notes</th></tr></thead>
+            <tbody>
+              <tr><td>Alpaca JSONL</td><td><span class="doc-inline-code">alpaca</span></td><td>instruction, input, output fields</td></tr>
+              <tr><td>ShareGPT JSON</td><td><span class="doc-inline-code">sharegpt</span></td><td>conversations array format</td></tr>
+              <tr><td>Raw Text</td><td><span class="doc-inline-code">text</span></td><td>One document per line</td></tr>
+              <tr><td>HF Dataset</td><td><span class="doc-inline-code">huggingface</span></td><td>Streaming supported</td></tr>
+              <tr><td>Custom</td><td><span class="doc-inline-code">custom</span></td><td>Implement DataSource protocol</td></tr>
+            </tbody>
+          </table>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('config')">← Configuration</button>
+            <button class="doc-nav-btn" onclick="showDoc('pretraining')">Pre-Training →</button>
+          </div>
+        </div>
+
+        <!-- PRETRAINING ->
+        <div class="doc-page" id="doc-pretraining">
+          <div class="doc-breadcrumb">Training <span>›</span> Pre-Training</div>
+          <h1 class="doc-title">Pre-Training</h1>
+          <p class="doc-intro">Train a language model from scratch on your own dataset. Prometheus makes this tractable on a single 80GB GPU for models up to 7B parameters.</p>
+
+          <h2 class="doc-h2">Minimal Config</h2>
+          <div class="doc-code">model:
+    architecture: llama
+    hidden_size: 4096
+    num_layers: 32
+    num_heads: 32
+    vocab_size: 32000
+
+  training:
+    method: pretrain
+    tokens_budget: 100_000_000_000   &#35; 100B tokens
+    learning_rate: 3e-4
+    warmup_steps: 2000
+    scheduler: cosine
+
+  optimization:
+    mixed_precision: bf16
+    gradient_checkpointing: true
+    flash_attention: true</div>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('datasets')">← Datasets</button>
+            <button class="doc-nav-btn" onclick="showDoc('finetuning')">Fine-Tuning →</button>
+          </div>
+        </div>
+
+        <!-- FINETUNING ->
+        <div class="doc-page" id="doc-finetuning">
+          <div class="doc-breadcrumb">Training <span>›</span> Fine-Tuning</div>
+          <h1 class="doc-title">Fine-Tuning</h1>
+          <p class="doc-intro">Adapt pre-trained models to new tasks with parameter-efficient methods. LoRA, QLoRA, and full fine-tuning are all supported.</p>
+
+          <h2 class="doc-h2">LoRA Fine-Tuning</h2>
+          <p class="doc-p">LoRA (Low-Rank Adaptation) lets you fine-tune billion-parameter models with minimal GPU memory by training only a small set of low-rank matrices.</p>
+          <div class="doc-code">training:
+    method: lora
+    lora_r: 16          &#35; rank
+    lora_alpha: 32      &#35; scaling
+    lora_dropout: 0.05
+    target_modules:     &#35; which layers to adapt
+      - q_proj
+      - v_proj</div>
+
+          <h2 class="doc-h2">QLoRA (4-bit)</h2>
+          <div class="doc-code">training:
+    method: qlora
+    bits: 4
+    double_quant: true
+    quant_type: nf4</div>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('pretraining')">← Pre-Training</button>
+            <button class="doc-nav-btn" onclick="showDoc('rlhf')">RLHF →</button>
+          </div>
+        </div>
+
+        <!-- RLHF ->
+        <div class="doc-page" id="doc-rlhf">
+          <div class="doc-breadcrumb">Training <span>›</span> RLHF & Alignment</div>
+          <h1 class="doc-title">RLHF & Alignment</h1>
+          <p class="doc-intro">Align model behavior using human feedback. Prometheus supports PPO, DPO, and Constitutional AI methods out of the box.</p>
+
+          <h2 class="doc-h2">DPO (Preferred)</h2>
+          <p class="doc-p">Direct Preference Optimization is simpler than PPO and often performs comparably for instruction-following tasks.</p>
+          <div class="doc-code">training:
+    method: dpo
+    beta: 0.1           &#35; KL regularization strength
+    reference_model: "path/to/sft-checkpoint"
+
+  data:
+    format: preference   &#35; chosen/rejected pairs</div>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('finetuning')">← Fine-Tuning</button>
+            <button class="doc-nav-btn" onclick="showDoc('inference')">Inference →</button>
+          </div>
+        </div>
+
+        <!-- INFERENCE ->
+        <div class="doc-page" id="doc-inference">
+          <div class="doc-breadcrumb">Deployment <span>›</span> Inference</div>
+          <h1 class="doc-title">Inference</h1>
+          <p class="doc-intro">Serve your trained models with a minimal OpenAI-compatible HTTP API or integrate directly via the Python SDK.</p>
+
+          <h2 class="doc-h2">Start the Server</h2>
+          <div class="doc-code">prometheus serve \
+    --checkpoint ./runs/my-model/final \
+    --port 8080 \
+    --max-concurrent 8</div>
+
+          <h2 class="doc-h2">Compatible API</h2>
+          <div class="doc-code">curl http://localhost:8080/v1/chat/completions \
+    -H "Content-Type: application/json" \
+    -d '{
+      "model": "my-model",
+      "messages": [{"role": "user", "content": "Hello!"}]
+    }'</div>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('rlhf')">← RLHF</button>
+            <button class="doc-nav-btn" onclick="showDoc('quantization')">Quantization →</button>
+          </div>
+        </div>
+
+        <!-- QUANTIZATION ->
+        <div class="doc-page" id="doc-quantization">
+          <div class="doc-breadcrumb">Deployment <span>›</span> Quantization</div>
+          <h1 class="doc-title">Quantization</h1>
+          <p class="doc-intro">Reduce model size and improve inference throughput with post-training quantization. Supports GPTQ, AWQ, and GGUF formats.</p>
+
+          <h2 class="doc-h2">GPTQ Quantization</h2>
+          <div class="doc-code">prometheus quantize \
+    --checkpoint ./my-model \
+    --method gptq \
+    --bits 4 \
+    --group-size 128 \
+    --output ./my-model-gptq-4bit</div>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('inference')">← Inference</button>
+            <button class="doc-nav-btn" onclick="showDoc('api')">API Reference →</button>
+          </div>
+        </div>
+
+        <!-- API ->
+        <div class="doc-page" id="doc-api">
+          <div class="doc-breadcrumb">Reference <span>›</span> API Reference</div>
+          <h1 class="doc-title">API Reference</h1>
+          <p class="doc-intro">The Python SDK provides programmatic access to all Prometheus functionality.</p>
+
+          <div class="doc-h3">prometheus.train()</div>
+          <div class="doc-code">prometheus.train(
+    config: Union[str, dict, TrainingConfig],
+    callbacks: list[Callback] = None,
+    resume_from: str = None,
+  ) -> TrainingResult</div>
+
+          <div class="doc-h3">prometheus.evaluate()</div>
+          <div class="doc-code">prometheus.evaluate(
+    checkpoint: str,
+    benchmarks: list[str] = ["mmlu"],
+    num_fewshot: int = 5,
+    device: str = "auto",
+  ) -> EvalResult</div>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('quantization')">← Quantization</button>
+            <button class="doc-nav-btn" onclick="showDoc('cli')">CLI Reference →</button>
+          </div>
+        </div>
+
+        <!-- CLI ->
+        <div class="doc-page" id="doc-cli">
+          <div class="doc-breadcrumb">Reference <span>›</span> CLI Reference</div>
+          <h1 class="doc-title">CLI Reference</h1>
+          <p class="doc-intro">The <span class="doc-inline-code">prometheus</span> command provides access to all major operations from the terminal.</p>
+
+          <table class="doc-table">
+            <thead><tr><th>Command</th><th>Description</th></tr></thead>
+            <tbody>
+              <tr><td>prometheus train</td><td>Run training from a config file</td></tr>
+              <tr><td>prometheus eval</td><td>Evaluate a checkpoint on benchmarks</td></tr>
+              <tr><td>prometheus serve</td><td>Start the inference server</td></tr>
+              <tr><td>prometheus quantize</td><td>Quantize a checkpoint</td></tr>
+              <tr><td>prometheus merge</td><td>Merge LoRA adapters into base model</td></tr>
+              <tr><td>prometheus convert</td><td>Convert between checkpoint formats</td></tr>
+              <tr><td>prometheus config validate</td><td>Validate a config file</td></tr>
+            </tbody>
+          </table>
+
+          <div class="doc-nav-footer">
+            <button class="doc-nav-btn" onclick="showDoc('api')">← API Reference</button>
+            <span></span>
+          </div>
+        </div>
+
+      </div><!-- /docs-content ->
+    </div><!-- /docs-grid ->
+  </section>
+-->
+<!-- CODE SECTION -->
+<div class="code-section reveal" id="contribute">
+  <div class="code-inner">
+    <div class="code-left">
+      <div class="section-label" style="color:#555">
+        Open source for everyone
+      </div>
+
+      <h2 class="section-title" style="color:var(--white)">
+        From curiosity to <em>contribution.</em>
+      </h2>
+
+      <p class="section-body" style="color:var(--silver)">
+        PROJECT PROMETHEUS exists to make AI training, research, and model
+        development accessible to everyone. Explore the code, learn how it
+        works, and build alongside us.
+      </p>
+
+      <div class="code-steps">
+        <div class="code-step">
+          <span class="step-num">01</span>
+          <div class="step-content">
+            <div class="step-title">Explore repositories</div>
+            <div class="step-body">
+              Browse open-source training code, experiments, datasets, and
+              research projects.
+            </div>
+          </div>
+        </div>
+
+        <div class="code-step">
+          <span class="step-num">02</span>
+          <div class="step-content">
+            <div class="step-title">Learn & understand</div>
+            <div class="step-body">
+              Read documentation, implementation notes, and technical reports
+              to understand how modern AI systems are built.
+            </div>
+          </div>
+        </div>
+
+        <div class="code-step">
+          <span class="step-num">03</span>
+          <div class="step-content">
+            <div class="step-title">Build with us</div>
+            <div class="step-body">
+              Submit pull requests, improve documentation, report bugs, or
+              start your own experiments.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="code-terminal">
+      <div class="terminal-bar">
+        <div class="terminal-dot"></div>
+        <div class="terminal-dot"></div>
+        <div class="terminal-dot"></div>
+        <span class="terminal-title">terminal</span>
+      </div>
+
+      <div class="terminal-body">
+        <div class="terminal-line">
+          <span class="prompt">$</span>
+          <span class="cmd">
+            git clone https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS
+          </span>
+        </div>
+
+        <div class="terminal-line">
+          <span class="output success">
+            ✓ Repository cloned successfully
+          </span>
+        </div>
+
+        <br>
+
+        <div class="terminal-line">
+          <span class="prompt">$</span>
+          <span class="cmd">cd prometheus-train</span>
+        </div>
+
+        <div class="terminal-line">
+          <span class="output success">
+            ✓ Source code ready to explore
+          </span>
+        </div>
+
+        <div class="terminal-line">
+          <span class="output success">
+            ✓ Documentation available
+          </span>
+        </div>
+
+        <div class="terminal-line">
+          <span class="output success">
+            ✓ Contributions welcome
+          </span>
+        </div>
+
+        <br>
+
+        <div class="terminal-line">
+          <span class="output" style="color:#777">
+            Open source projects: 1
+          </span>
+        </div>
+
+        <div class="terminal-line">
+          <span class="output" style="color:#777">
+            Research experiments: public
+          </span>
+        </div>
+
+        <div class="terminal-line">
+          <span class="output" style="color:#777">
+            Status: building in public
+            <span class="terminal-cursor"></span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- REPOSITORIES -->
+<section id="repositories" class="reveal">
+  <div class="section-label">Repositories</div>
+
+  <h2 class="section-title">
+    Open-source projects<br>
+    built <em>in public.</em>
+  </h2>
+
+  <p class="section-body">
+    Training code, research experiments, datasets, evaluation tools,
+    and infrastructure developed under PROJECT PROMETHEUS. Every project
+    is open-source, reproducible, and available to anyone.
+  </p>
+
+  <div class="ecosystem-list" id="repoList"></div>
+</section>
+
+<!-- COMMUNITY -->
+ <section id="community" class="reveal">
+  <div class="section-label">Get Involved</div>
+
+  <h2 class="section-title">
+    Intelligence belongs<br>
+    <em>to everyone.</em>
+  </h2>
+
+  <p class="section-body">
+    PROJECT PROMETHEUS is built in public. Follow development, explore the
+    code, contribute improvements, and help make AI more accessible to
+    everyone.
+  </p>
+
+  <div class="community-grid">
+
+    <div class="community-card">
+  
+
+      <div class="community-title">
+        GitHub
+      </div>
+
+      <p class="community-body">
+        Explore repositories, track progress, report issues, and contribute
+        code. Every project is open-source.
+      </p>
+
+      <a
+        href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS"
+        class="community-link"
+        target="_blank"
+      >
+        View repositories →
+      </a>
+    </div>
+
+    <div class="community-card">
+
+      <div class="community-title">
+        Documentation
+      </div>
+
+      <p class="community-body">
+        Learn how the projects work, read technical notes, and understand the
+        ideas behind the code.
+      </p>
+
+      <a href="#repositories" class="community-link">
+        Start exploring →
+      </a>
+    </div>
+
+    <div class="community-card">
+
+      <div class="community-title">
+        Contribute
+      </div>
+
+      <p class="community-body">
+        Improve documentation, submit pull requests, report bugs, or build
+        something new on top of Project Prometheus.
+      </p>
+
+      <a
+        href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/issues"
+        class="community-link"
+        target="_blank"
+      >
+        Get involved →
+      </a>
+    </div>
+
+    <div class="community-card">
+
+      <div class="community-title">
+        LinkedIn
+      </div>
+
+      <p class="community-body">
+        Visit our LinkedIn Page.
+      </p>
+
+      <a
+        href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/issues"
+        class="community-link"
+        target="_blank"
+      >
+        Visit →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta-banner reveal">
+  <h2>The fire of AI<br><em>belongs to everyone.</em></h2>
+  <p>
+    Start training your first model today.
+    No credit card. No cloud account. Just a computer and curiosity.
+  </p>
+  <div class="cta-actions">
+    <a href="#docs" class="btn-white" onclick="showDoc('install')">
+      Read the Docs
+    </a>
+    <a href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS" class="btn-ghost-white">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+      Star on GitHub
+    </a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-brand">
+    <div class="logo">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C12 2 8 6 8 10C8 10 6 8 6 6C6 6 3 9 3 14C3 17.87 7.13 21 12 21C16.87 21 21 17.87 21 13C21 7 15 4 15 4C15 4 14 7 12 8C12 8 13 5 12 2Z"/>
+      </svg>
+      PROJECT PROMETHEUS
+    </div>
+
+    <p class="footer-tagline">
+      Bringing the fire of AI to everyone.
+    </p>
+
+    <span class="footer-license">
+      Open Source · Built in Public
+    </span>
+  </div>
+
+  <div>
+    <div class="footer-col-title">Project</div>
+    <ul class="footer-links">
+      <li><a href="#about">Mission</a></li>
+      <li><a href="#repositories">Repositories</a></li>
+      <li><a href="#contribute">Contribute</a></li>
+      <li><a href="#community">Community</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <div class="footer-col-title">Resources</div>
+    <ul class="footer-links">
+      <li><a href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS">GitHub</a></li>
+      <li><a href="#repositories">Source Code</a></li>
+      <li><a href="#">Documentation</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <div class="footer-col-title">Get Involved</div>
+    <ul class="footer-links">
+      <li><a href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/issues">Report Issues</a></li>
+      <li><a href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/pulls">Pull Requests</a></li>
+      <li><a href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS">Contribute</a></li>
+    </ul>
+  </div>
+</footer>
+
+<!-- FOOTER
+<footer>
+  <div class="footer-brand">
+    <div class="logo">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M12 2C12 2 8 6 8 10C8 10 6 8 6 6C6 6 3 9 3 14C3 17.87 7.13 21 12 21C16.87 21 21 17.87 21 13C21 7 15 4 15 4C15 4 14 7 12 8C12 8 13 5 12 2Z"/>
+      </svg>
+      Project Prometheus
+    </div>
+    <p class="footer-tagline">Open-source AI infrastructure for researchers, students, and independent builders everywhere.</p>
+    <span class="footer-license">MIT License · Free forever</span>
+  </div>
+
+  <div>
+    <div class="footer-col-title">Product</div>
+    <ul class="footer-links">
+      <li><a href="#docs" onclick="showDoc('intro')">Documentation</a></li>
+      <li><a href="#ecosystem">Ecosystem</a></li>
+      <li><a href="#" onclick="showDoc('quickstart')">Quick Start</a></li>
+      <li><a href="#" onclick="showDoc('api')">API Reference</a></li>
+      <li><a href="#">Changelog</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <div class="footer-col-title">Community</div>
+    <ul class="footer-links">
+      <li><a href="https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS">GitHub</a></li>
+      <li><a href="#">Discord</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Newsletter</a></li>
+      <li><a href="#">Governance</a></li>
+    </ul>
+  </div>
+
+  <div>
+    <div class="footer-col-title">Research</div>
+    <ul class="footer-links">
+      <li><a href="#">arXiv Papers</a></li>
+      <li><a href="#">Model Zoo</a></li>
+      <li><a href="#">Benchmarks</a></li>
+      <li><a href="#">Datasets</a></li>
+      <li><a href="#">Contributing</a></li>
+    </ul>
+  </div>
+</footer> -->
+
+<div class="footer-bottom">
+  <span class="footer-copy">© 2026 Project Prometheus — Open Source</span>
+  <a href="#" class="footer-gh">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+    Debkumar-Baksi/PROJECT_PROMETHEUS
+  </a>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

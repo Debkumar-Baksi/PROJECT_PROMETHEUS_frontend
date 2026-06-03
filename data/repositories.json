@@ -1,0 +1,23 @@
+[
+  {
+    "name": "prometheus-llm",
+    "description": "Core training engine, dataset utilities, and configuration system",
+    "language": "Python · CUDA",
+    "status": "Beta",
+    "github": "https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/tree/main/Train_Your_LLM"
+  },
+  {
+    "name": "prometheus-RAG",
+    "description": "Retrieval-Augmented Generation.",
+    "language": "Python",
+    "status": "Beta",
+    "github": "https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/tree/main/RAG_Basic"
+  },
+  {
+    "name": "prometheus-Tokenizer",
+    "description": "converting raw text into tokens",
+    "language": "Python",
+    "status": "Beta",
+    "github": "https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/tree/main/tokenizer"
+  }
+]
