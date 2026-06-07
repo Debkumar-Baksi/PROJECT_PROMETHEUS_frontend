@@ -19,5 +19,12 @@
     "language": "Python",
     "status": "Beta",
     "github": "https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/tree/main/tokenizer"
+  },
+    {
+    "name": "prometheus-Regression CML",
+    "description": "Dynamic Code to build Regression Models",
+    "language": "Python",
+    "status": "Stable",
+    "github": "https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/tree/main/Regression"
   }
 ]
