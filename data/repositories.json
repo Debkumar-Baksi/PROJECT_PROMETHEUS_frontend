@@ -26,5 +26,12 @@
     "language": "Python",
     "status": "Stable",
     "github": "https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/tree/main/Regression"
+  },
+      {
+    "name": "prometheus-Classification CML",
+    "description": "Dynamic Code to build Classification Models",
+    "language": "Python",
+    "status": "Stable",
+    "github": "https://github.com/Debkumar-Baksi/PROJECT_PROMETHEUS/tree/main/Classification"
   }
 ]
